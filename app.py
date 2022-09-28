@@ -33,9 +33,9 @@ from linebot.models import (
 app = Flask(__name__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('MuNEIA5VmMRB/uch3hzzJKnHiIhP0DkRBrdQrU9ZfKtTANqgI0HaP4Ltu/tlVJ+GG0EsxfmEVYBYxxyygX/4Nxf+rHzfZdo5pSKtNEKZvOiHCwR12kMm9dd0sQ3upFNs5XpdGEdRvZo8MawgLgk9RAdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('L5CsEHq6AhhsjJOc1wN4FT/CLoDZfnKuMKEzifQhq4iOpnJeEvBpuwU7EsKGwVKWq6j6tPdlAAMiIRF49qGNECD+6heI+v/NEYJgefnxvWfke0skxgQa0SNskW4S1dPvfHX5rSOf4E/iAHZVT8NMbQdB04t89/1O/w1cDnyilFU=')
 # Channel Secret
-handler = WebhookHandler('7299a505b00c86a68f93a39d051022f7')
+handler = WebhookHandler('1901b8ba3662fe0c04d6fd77da6ec016')
 #===========[ NOTE SAVER ]=======================
 notes = {}
 
@@ -80,15 +80,15 @@ def handle_message(event):
                 actions=[
                     MessageTemplateAction(
                         label='Culum 1',
-                        text='/aditmadzs'
+                        text='/abhelfamz'
                     ),
                     MessageTemplateAction(
                         label='CULUM 2',
-                        text='/aditmadzs'
+                        text='/abhelfamz'
                     ),
                     MessageTemplateAction(
                         label='CULUM 3',
-                        text='/aditmadzs'
+                        text='/abhelfamz'
                     )
                 ]
             )
@@ -103,11 +103,11 @@ def handle_message(event):
                 columns=[
                     CarouselColumn(
                         title='ADD ME',
-                        text='Contact Aditmadzs',
+                        text='Contact Abhelfamz',
                         actions=[
                             URITemplateAction(
                                 label='>TAP HERE<',
-                                uri='https://line.me/ti/p/~adit_cmct'
+                                uri='https://line.me/ti/p/~@544pvcdu'
                             )
                         ]
                     ),
@@ -117,7 +117,7 @@ def handle_message(event):
                         actions=[
                             URITemplateAction(
                                 label='>TAP HERE!<',
-                                uri='http://line.me/ti/p/~adit_cmct'
+                                uri='http://line.me/ti/p/~@544pvcdu'
                             )
                         ]
                     )
@@ -134,13 +134,13 @@ def handle_message(event):
                 size='full',
                 aspect_ratio='20:13',
                 aspect_mode='cover',
-                action=URIAction(uri='http://line.me/ti/p/~adit_cmct', label='label')
+                action=URIAction(uri='http://line.me/ti/p/~@544pvcdu', label='label')
             ),
             body=BoxComponent(
                 layout='vertical',
                 contents=[
                     # title
-                    TextComponent(text='Aditmadzs', weight='bold', size='xl'),
+                    TextComponent(text='Abhelfamz', weight='bold', size='xl'),
                     # review
                     BoxComponent(
                         layout='baseline',
@@ -213,7 +213,7 @@ def handle_message(event):
                     ButtonComponent(
                         style='link',
                         height='sm',
-                        action=URIAction(label='Aditmadzs', uri="https://line.me/ti/p/~adit_cmct")
+                        action=URIAction(label='Aditmadzs', uri="https://line.me/ti/p/~@544pvcdu")
                     )
                 ]
             ),
